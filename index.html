@@ -7,13 +7,13 @@
       <meta property="og:title" content="Sarah Domson - Frontend Developer Portfolio">
       <meta property="og:description" content="Explore the portfolio of Sarah Domson, a skilled frontend developer with a focus on creating responsive and user-friendly websites.">
       <meta property="og:image" content="./image/Sarah_logo">
-      <meta property="og:url" content="https://yourwebsite.com">
+      <meta property="og:url" content="https://sarahdomson.github.io/Frontend-Ivory-Project/">
       <meta property="og:type" content="website">
     <!-- Twitter Card Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sarah Domson - Frontend Developer Portfolio">
-    <meta name="twitter:description" content="Portfolio showcasing the projects and skills of Sarah Domson, a frontend developer.">
-    <meta name="twitter:image" content="./image/Sarah_logo">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="Sarah Domson - Frontend Developer Portfolio">
+      <meta name="twitter:description" content="Portfolio showcasing the projects and skills of Sarah Domson, a frontend developer.">
+      <meta name="twitter:image" content="./image/Sarah_logo">
       <!-- GitHub Profile -->
       <meta property="profile:username" content="Sarah Domson">
       <meta property="og:see_also" content="https://github.com/SarahDomson">
@@ -27,7 +27,7 @@
     </style>
 </head>
 <body class="container mx-auto font-heebo">
-    <header class="p-6 flex justify-end mx-auto relative">
+    <header class="p-6 flex justify-end mx-auto">
         <svg class="sm:hidden" width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
         <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
@@ -45,10 +45,10 @@
 
                   <!-- Main content -->
     <main class="max-w-5xl mx-auto px-4">
-        <section class="flex flex-col flex-col-reverse md:flex-row items-center text-center md:text-left">
+        <section class="flex flex-col flex-col-reverse md:pt-16 md:flex-row items-center text-center md:text-left">
             <div class="">
                 <h1 class="text-4xl lg:text-5xl font-bold text-gray-800">Hi, I am Sarah,<br>Web Developer</h1>
-                <p class="mt-4 text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <p class="mt-4 text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam <br> consequat sunt nostrud amet.</p>
                 <a href="Sarah_Domson_CV.pdf" download="YourName_Resume.pdf" class="inline-flex items-center px-6 py-3 bg-[#FF6464] text-white font-medium text-xl mt-5">
                     Download Resume
                 </a>
@@ -56,13 +56,13 @@
             <div class="md:w-1/2 mt-8 lg:mt-0 md:flex md:justify-end">
                 <img src="./image/Profile.svg.jpg" alt="Sarah's image" class="w-60 h-60 rounded-full mb-4">
             </div>
-        </section><br><br>
+        </section>
 
                       <!-- Recent Posts Section -->
          <section class="bg-[#EDF7FA] p-6 mt-16">
             <div class="flex justify-between items-center">
                <h2 class="text-2xl font-semibold text-gray-800">Recent posts</h2>
-               <a href="#" class="text-blue-500 hover:underline hidden">View all</a>
+               <a href="#" class="text-blue-500 hover:underline md:block hidden">View all</a>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
         
@@ -98,8 +98,10 @@
                     <img src="./image/dashboards.jpg" alt="Designing Dashboards" class="w-full md:w-40 h-auto rounded-md">
                     <div class="mt-4 md:mt-0 md:ml-6">
                         <h3 class="text-2xl font-bold text-lg-gray-800">Designing Dashboards</h3>
-                        <span class="inline-block mt-2 bg-blue-900 text-lg font-bold px-2 py-1 rounded-full text-sm text-white">2020</span>
-                        <span class="inline-block ml-4 text-gray-500">Dashboard</span>
+                        <div class="flex gap-4 items-center pt-2">
+                            <div><p class=" mt-2 bg-blue-900 text-lg font-bold px-2 py-1 rounded-full text-sm text-white">2018</p></div>
+                            <div><p class=" ml-4 text-gray-500 pt-1">Dashboard</p></div>
+                        </div>
                         <p class="text-gray-600 mt-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
@@ -109,8 +111,10 @@
                     <img src="./image/Illustration.jpg" alt="Vibrant Portraits of 2020" class="w-full md:w-40 h-auto rounded-md">
                     <div class="mt-4 md:mt-0 md:ml-6">
                         <h3 class="text-2xl font-bold text-lg-gray-800">Vibrant Portraits of 2020</h3>
-                        <span class="inline-block mt-2 bg-blue-900 text-lg font-bold px-2 py-1 rounded-full text-sm text-white">2018</span>
-                        <span class="inline-block ml-4 text-gray-500">Illustration</span>
+                        <div class="flex gap-4 items-center pt-2">
+                            <div><p class=" mt-2 bg-blue-900 text-lg font-bold px-2 py-1 rounded-full text-sm text-white">2018</p></div>
+                            <div><p class=" ml-4 text-gray-500 pt-1">Illustration</p></div>
+                        </div>
                         <p class="text-gray-600 mt-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
@@ -120,8 +124,10 @@
                     <img src="./image/Typography.jpg" alt="36 Days of Malayalam type" class="w-full md:w-40 h-auto rounded-md">
                     <div class="mt-4 md:mt-0 md:ml-6">
                         <h3 class="text-2xl font-bold text-lg-gray-800">36 Days of Malayalam type</h3>
-                        <span class="inline-block mt-2 bg-blue-900 text-lg font-bold px-2 py-1 rounded-full text-sm text-white">2018</span>
-                        <span class="inline-block ml-4 text-gray-500">Typography</span>
+                        <div class="flex gap-4 items-center pt-2">
+                            <div><p class=" mt-2 bg-blue-900 text-lg font-bold px-2 py-1 rounded-full text-sm text-white">2018</p></div>
+                            <div><p class=" ml-4 text-gray-500 pt-1">Typography</p></div>
+                        </div>
                         <p class="text-gray-600 mt-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
