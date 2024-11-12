@@ -12,7 +12,7 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
-This project is a responsive recreation of a Figma design, implemented with Tailwind CSS. The goal is to faithfully replicate the design and ensure it adapts smoothly across devices and screen sizes. This project highlights my skills in frontend development, particularly in CSS frameworks and responsive design.
+This project is a responsive recreation of a Figma design portoflio, implemented with Tailwind CSS. The goal is to faithfully replicate the design and ensure it adapts smoothly across devices and screen sizes. This project highlights my skills in frontend development, particularly in CSS frameworks and responsive design.
 
 ## Features
 - Pixel-perfect recreation of the Figma design
@@ -23,16 +23,15 @@ This project is a responsive recreation of a Figma design, implemented with Tail
 ## Technologies Used
 - **HTML5**: For the basic structure of the project
 - **Tailwind CSS**: For styling and responsive design
-- **JavaScript**: For added interactivity (if applicable)
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/SarahDomson/Frontend-Ivory-Project
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repository-name
+   cd Frontend-Ivory-Project
    ```
 3. Open the project in your preferred code editor and use a live server to view changes instantly.
 
